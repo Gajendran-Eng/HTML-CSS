@@ -1,0 +1,86 @@
+/* Button.html */
+.Subcribe_button {
+  background-color: rgb(200, 0, 0);
+  border: none;
+  border-radius: 3px;
+  /* width: 105px;
+  height: 36px; */
+  padding-left: 16px;
+  padding-right: 16px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  transition: 1s;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+  vertical-align: top;
+}
+.Subcribe_button:hover{
+  opacity: 0.7;
+  
+}
+.Subcribe_button:active{
+  opacity: 0.4;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+}
+.Join_button {
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: rgb(28, 154, 233);;
+  /* width: 105px;
+  height: 36px; */
+  padding-left: 16px;
+  padding-right: 16px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(28, 154, 233);
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  transition: background-color  1s, color  1s;
+  vertical-align: top;
+
+}
+.Join_button:hover{
+  background-color: rgb(28, 154, 233);
+  color:rgb(255, 255, 255); 
+  opacity: 0.8;
+}
+.Join_button:active{
+  background-color: rgb(28, 154, 233);
+  color:rgb(255, 255, 255); 
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+}
+.Tweet_button {
+  background-color: rgb(28, 154, 233);
+  border: none;
+  border-radius: 18px;
+  padding-left: 16px;
+  padding-right: 16px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  transition: opacity 0.15s; 
+  vertical-align: top;
+}
+.Tweet_button:hover{
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+}
+.Tweet_button:active{
+  opacity: 0.4;
+ 
+
+}
