@@ -5,15 +5,16 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(Images/Food\ background.jpg);
+  
+  background-image: url(Images\Website.jpg);
   background-size: cover; /* This makes the image cover the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center center; /* Centers the image */
   background-attachment: fixed; /* Keeps the background image fixed in place while scrolling */
-  background-color: #7a747c;
+  background: #ccd1d3;
 }
 .Menu-bar {
-  background-color: rgb(21, 46, 64);
+  background: linear-gradient(#3b5c63, #553b61);
   text-align: center;
  
 
@@ -24,18 +25,22 @@ body{
   color: #fff;
 }
 .Menu-bar ul li {
-  width: 120px;
+  width: 125px;
   margin: 15px;
   padding: 15px;
+  font-size: 14px;
 }
 .Menu-bar ul li a{
   text-decoration: none;
   color: #fff;
 }
-.List1, .Menu-bar ul li:hover { 
+.Menu-bar ul li:hover { 
 
   background: #314e59;
-  border-radius: 3px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+ 
+
 
 }
 .Menu-bar .fa {
@@ -51,6 +56,11 @@ body{
   background: #314e59;
   margin-top: 15px;
   margin-left: -15px;
+  background-color: rgb(156, 165, 170);
+  opacity: 0.8;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
+  
 
 
 }
@@ -58,16 +68,19 @@ body{
 
   display: block;
   margin: 10px;
+
+
 }
 .Menu-bar ul li:hover .Sub-menu1 ul li {
 
   width: 150px;
   padding: 10px;
-  border-bottom: 1px dotted #fff;
-  border-radius: 3px;
+ /* border-bottom: 1px dotted #fff; */
+  border-radius: 4px;
   text-align: left;
   background: transparent;
-  border-radius: 0;
+  background: linear-gradient(#3b5c63, #553b61);
+
 
 }
 .Menu-bar ul li:hover .Sub-menu1 ul li:last-child {
@@ -82,6 +95,8 @@ body{
   background: #314e59;
   margin-top: 15px;
   margin-left: -15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.15);
 
 
 }
@@ -89,16 +104,18 @@ body{
 
   display: inline-block;
   margin: 10px;
+  
 }
 .Menu-bar ul li:hover .Sub-menu1 ul li:hover .Sub-menu2 ul li {
 
   width: 150;
   padding: 10px;
-  border-bottom: 1px dotted #fff;
-  border-radius: 3px;
+ /* border-bottom: 1px dotted #fff; */
+  border-radius: 4px;
   text-align: left;
   background: transparent;
-  border-radius: 0;
+  background: linear-gradient(#3b5c63, #553b61);
+
 
 }
 .Menu-bar ul li:hover .Sub-menu1 ul li:hover .Sub-menu2 ul li:last-child {
